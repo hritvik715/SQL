@@ -1,0 +1,2 @@
+first activate virtual environment => .\venv\Scripts\Activate.ps1
+then run => streamlit run app.py
