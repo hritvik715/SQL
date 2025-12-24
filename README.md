@@ -35,3 +35,56 @@ Example:
 ---
 
 ## 📂 Project Structure
+├── app.py # Main application logic
+├── sql.py # Database connection and SQL execution
+├── student.db # SQLite database
+├── test.py # Testing and experimentation
+├── requirements.txt # Project dependencies
+├── .env # API keys (not committed)
+
+
+
+
+---
+
+## ⚙️ How It Works
+1. The user inputs a question in natural language  
+2. The input is sent to the Gemini API  
+3. Gemini generates a valid SQL query  
+4. The query is executed on the SQLite database  
+5. The result is displayed to the user  
+
+---
+
+## 🔐 Security Considerations
+- Input validation is applied to avoid invalid queries
+- SQL execution is controlled to prevent misuse
+- API keys are stored securely using environment variables
+
+---
+
+## 📈 Future Improvements
+- Support for multiple database tables
+- Better result formatting
+- Query history tracking
+- Role-based access
+- Migration to PostgreSQL for scalability
+
+---
+
+## 📌 Use Cases
+- Learning SQL concepts
+- Quick database querying
+- AI-powered data exploration
+- Educational demonstrations of NLP + SQL integration
+
+---
+
+## 👤 Author
+**Hritvik Mohan**  
+GitHub: https://github.com/hritvik715
+
+---
+
+## 📄 License
+This project is for educational and demonstration purposes.
