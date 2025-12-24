@@ -34,13 +34,15 @@ Example:
 
 ---
 
-## 📂 Project Structure
-├── app.py # Main application logic
-├── sql.py # Database connection and SQL execution
-├── student.db # SQLite database
-├── test.py # Testing and experimentation
-├── requirements.txt # Project dependencies
-├── .env # API keys (not committed)
+SQL-NLP-Query-Assistant/
+│
+├── app.py                  # Main application logic (UI + NLP flow)
+├── sql.py                  # Database connection and SQL execution
+├── student.db              # SQLite database
+├── test.py                 # Testing and experimentation
+├── requirements.txt        # Project dependencies
+├── .env                    # API keys and environment variables (not committed)
+└── README.md               # Project documentation
 
 
 
